@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html data-theme="dark" class="bg-primary text-secondary" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+		<link href="./_app/immutable/assets/0.ef71720a.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/8.b8130898.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.aaabb5bf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e67d60ea.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.8e338808.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.772a8d7f.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.045da0f5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.f857a1c9.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.2e450431.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.e59479a4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Icon.60a46965.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.14d4415c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.4aa9c8b0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/8.8cd1fba0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/firebase.602778a6.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+    <div class="lg:h-screen min-h-screen">  <div class="flex items-center justify-center lg:h-full h-screen"><div class="loader h-screen flex items-center justify-center svelte-fqf06a" style="--size: 85px; --color:; --duration: 1.5s;"><div class="sub_loader svelte-fqf06a"></div> <div class="sub_loader svelte-fqf06a"></div> <div class="sub_loader svelte-fqf06a"></div> </div></div> 
+			
+			<script>
+				{
+					__sveltekit_cf5k9c = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.aaabb5bf.js"),
+						import("./_app/immutable/entry/app.045da0f5.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 8],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+    <div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-70">
+        <div id="particles-js" class="absolute inset-0" />
+    </div>
+    <script>
+        particlesJS.load("particles-js", "assets/particles.json", function () {
+            console.log("callback - particles.js config loaded");
+        });
+    </script>
+</body>
+
+</html>
